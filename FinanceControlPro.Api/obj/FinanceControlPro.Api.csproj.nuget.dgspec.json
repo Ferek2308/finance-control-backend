@@ -1,0 +1,394 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\proyectosdev\\finance_control\\finance-control-backend\\FinanceControlPro.Api\\FinanceControlPro.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\proyectosdev\\finance_control\\finance-control-backend\\FinanceControlPro.Api\\FinanceControlPro.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\proyectosdev\\finance_control\\finance-control-backend\\FinanceControlPro.Api\\FinanceControlPro.Api.csproj",
+        "projectName": "FinanceControlPro.Api",
+        "projectPath": "C:\\proyectosdev\\finance_control\\finance-control-backend\\FinanceControlPro.Api\\FinanceControlPro.Api.csproj",
+        "packagesPath": "C:\\Users\\crizm\\.nuget\\packages\\",
+        "outputPath": "C:\\proyectosdev\\finance_control\\finance-control-backend\\FinanceControlPro.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\crizm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\proyectosdev\\finance_control\\finance-control-backend\\FinanceControlPro.Application\\FinanceControlPro.Application.csproj": {
+                "projectPath": "C:\\proyectosdev\\finance_control\\finance-control-backend\\FinanceControlPro.Application\\FinanceControlPro.Application.csproj"
+              },
+              "C:\\proyectosdev\\finance_control\\finance-control-backend\\FinanceControlPro.Infrastructure\\FinanceControlPro.Infrastructure.csproj": {
+                "projectPath": "C:\\proyectosdev\\finance_control\\finance-control-backend\\FinanceControlPro.Infrastructure\\FinanceControlPro.Infrastructure.csproj"
+              },
+              "C:\\proyectosdev\\finance_control\\finance-control-backend\\FinanceControlPro.Shared\\FinanceControlPro.Shared.csproj": {
+                "projectPath": "C:\\proyectosdev\\finance_control\\finance-control-backend\\FinanceControlPro.Shared\\FinanceControlPro.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.319/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\proyectosdev\\finance_control\\finance-control-backend\\FinanceControlPro.Application\\FinanceControlPro.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\proyectosdev\\finance_control\\finance-control-backend\\FinanceControlPro.Application\\FinanceControlPro.Application.csproj",
+        "projectName": "FinanceControlPro.Application",
+        "projectPath": "C:\\proyectosdev\\finance_control\\finance-control-backend\\FinanceControlPro.Application\\FinanceControlPro.Application.csproj",
+        "packagesPath": "C:\\Users\\crizm\\.nuget\\packages\\",
+        "outputPath": "C:\\proyectosdev\\finance_control\\finance-control-backend\\FinanceControlPro.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\crizm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\proyectosdev\\finance_control\\finance-control-backend\\FinanceControlPro.Domain\\FinanceControlPro.Domain.csproj": {
+                "projectPath": "C:\\proyectosdev\\finance_control\\finance-control-backend\\FinanceControlPro.Domain\\FinanceControlPro.Domain.csproj"
+              },
+              "C:\\proyectosdev\\finance_control\\finance-control-backend\\FinanceControlPro.Shared\\FinanceControlPro.Shared.csproj": {
+                "projectPath": "C:\\proyectosdev\\finance_control\\finance-control-backend\\FinanceControlPro.Shared\\FinanceControlPro.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.319/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\proyectosdev\\finance_control\\finance-control-backend\\FinanceControlPro.Domain\\FinanceControlPro.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\proyectosdev\\finance_control\\finance-control-backend\\FinanceControlPro.Domain\\FinanceControlPro.Domain.csproj",
+        "projectName": "FinanceControlPro.Domain",
+        "projectPath": "C:\\proyectosdev\\finance_control\\finance-control-backend\\FinanceControlPro.Domain\\FinanceControlPro.Domain.csproj",
+        "packagesPath": "C:\\Users\\crizm\\.nuget\\packages\\",
+        "outputPath": "C:\\proyectosdev\\finance_control\\finance-control-backend\\FinanceControlPro.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\crizm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.319/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\proyectosdev\\finance_control\\finance-control-backend\\FinanceControlPro.Infrastructure\\FinanceControlPro.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\proyectosdev\\finance_control\\finance-control-backend\\FinanceControlPro.Infrastructure\\FinanceControlPro.Infrastructure.csproj",
+        "projectName": "FinanceControlPro.Infrastructure",
+        "projectPath": "C:\\proyectosdev\\finance_control\\finance-control-backend\\FinanceControlPro.Infrastructure\\FinanceControlPro.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\crizm\\.nuget\\packages\\",
+        "outputPath": "C:\\proyectosdev\\finance_control\\finance-control-backend\\FinanceControlPro.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\crizm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\proyectosdev\\finance_control\\finance-control-backend\\FinanceControlPro.Application\\FinanceControlPro.Application.csproj": {
+                "projectPath": "C:\\proyectosdev\\finance_control\\finance-control-backend\\FinanceControlPro.Application\\FinanceControlPro.Application.csproj"
+              },
+              "C:\\proyectosdev\\finance_control\\finance-control-backend\\FinanceControlPro.Domain\\FinanceControlPro.Domain.csproj": {
+                "projectPath": "C:\\proyectosdev\\finance_control\\finance-control-backend\\FinanceControlPro.Domain\\FinanceControlPro.Domain.csproj"
+              },
+              "C:\\proyectosdev\\finance_control\\finance-control-backend\\FinanceControlPro.Shared\\FinanceControlPro.Shared.csproj": {
+                "projectPath": "C:\\proyectosdev\\finance_control\\finance-control-backend\\FinanceControlPro.Shared\\FinanceControlPro.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.319/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\proyectosdev\\finance_control\\finance-control-backend\\FinanceControlPro.Shared\\FinanceControlPro.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\proyectosdev\\finance_control\\finance-control-backend\\FinanceControlPro.Shared\\FinanceControlPro.Shared.csproj",
+        "projectName": "FinanceControlPro.Shared",
+        "projectPath": "C:\\proyectosdev\\finance_control\\finance-control-backend\\FinanceControlPro.Shared\\FinanceControlPro.Shared.csproj",
+        "packagesPath": "C:\\Users\\crizm\\.nuget\\packages\\",
+        "outputPath": "C:\\proyectosdev\\finance_control\\finance-control-backend\\FinanceControlPro.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\crizm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.319/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
