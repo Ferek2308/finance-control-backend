@@ -1,0 +1,12 @@
+C:\proyectosdev\finance_control\finance-control-backend\FinanceControlPro.Domain\bin\Debug\net8.0\FinanceControlPro.Domain.deps.json
+C:\proyectosdev\finance_control\finance-control-backend\FinanceControlPro.Domain\bin\Debug\net8.0\FinanceControlPro.Domain.dll
+C:\proyectosdev\finance_control\finance-control-backend\FinanceControlPro.Domain\bin\Debug\net8.0\FinanceControlPro.Domain.pdb
+C:\proyectosdev\finance_control\finance-control-backend\FinanceControlPro.Domain\obj\Debug\net8.0\FinanceControlPro.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\proyectosdev\finance_control\finance-control-backend\FinanceControlPro.Domain\obj\Debug\net8.0\FinanceControlPro.Domain.AssemblyInfoInputs.cache
+C:\proyectosdev\finance_control\finance-control-backend\FinanceControlPro.Domain\obj\Debug\net8.0\FinanceControlPro.Domain.AssemblyInfo.cs
+C:\proyectosdev\finance_control\finance-control-backend\FinanceControlPro.Domain\obj\Debug\net8.0\FinanceControlPro.Domain.csproj.CoreCompileInputs.cache
+C:\proyectosdev\finance_control\finance-control-backend\FinanceControlPro.Domain\obj\Debug\net8.0\FinanceControlPro.Domain.sourcelink.json
+C:\proyectosdev\finance_control\finance-control-backend\FinanceControlPro.Domain\obj\Debug\net8.0\FinanceControlPro.Domain.dll
+C:\proyectosdev\finance_control\finance-control-backend\FinanceControlPro.Domain\obj\Debug\net8.0\refint\FinanceControlPro.Domain.dll
+C:\proyectosdev\finance_control\finance-control-backend\FinanceControlPro.Domain\obj\Debug\net8.0\FinanceControlPro.Domain.pdb
+C:\proyectosdev\finance_control\finance-control-backend\FinanceControlPro.Domain\obj\Debug\net8.0\ref\FinanceControlPro.Domain.dll
