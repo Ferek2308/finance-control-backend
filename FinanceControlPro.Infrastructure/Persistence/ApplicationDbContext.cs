@@ -10,5 +10,10 @@ namespace FinanceControlPro.Infrastructure.Persistence
         }
 
         // Aquí irán los DbSet<> cuando se definan las entidades.
+
+            public async Task<bool> CanConnectAsync()
+        {
+            return await Database.CanConnectAsync();
+        }
     }
 }
