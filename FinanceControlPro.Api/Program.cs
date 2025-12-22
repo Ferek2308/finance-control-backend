@@ -63,7 +63,7 @@ var app = builder.Build();
 
 
 
-
+/**
 using (var scope = app.Services.CreateScope())
 {
     var debugAudit = scope.ServiceProvider.GetRequiredService<DebugAuditService>();
@@ -73,7 +73,7 @@ using (var scope = app.Services.CreateScope())
         userAgent: "APPLICATION_STARTUP"
     );
 }
-
+ **/
 
 
 // ----------------------

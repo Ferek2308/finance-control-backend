@@ -13,5 +13,5 @@ public enum AuditAction
     TOKEN_REFRESH,
     UNAUTHORIZED_ACCESS,
 
-    SYSTEM_STARTUP
+    //SYSTEM_STARTUP
 }

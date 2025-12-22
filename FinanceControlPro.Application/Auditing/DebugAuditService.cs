@@ -15,7 +15,7 @@ public class DebugAuditService
     {
         await _auditService.LogAsync(new AuditLogRequest
         {
-            Action = AuditAction.SYSTEM_STARTUP,
+          //  Action = AuditAction.SYSTEM_STARTUP,
             Entity = AuditEntity.SYSTEM,
             Result = AuditResult.SUCCESS,
             Description = "Application started successfully",

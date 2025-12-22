@@ -23,14 +23,7 @@ public class AuditMiddleware
             if (context.Response.StatusCode == StatusCodes.Status401Unauthorized ||
                 context.Response.StatusCode == StatusCodes.Status403Forbidden)
             {
-                await auditService.LogAsync(new AuditLogRequest
-                {
-                    Action = AuditAction.UNAUTHORIZED_ACCESS,
-                    Entity = AuditEntity.SYSTEM,
-                    Result = AuditResult.FAILURE,
-                    IpAddress = context.Connection.RemoteIpAddress?.ToString(),
-                    UserAgent = context.Request.Headers["User-Agent"].ToString()
-                });
+              
             }
         }
         catch
