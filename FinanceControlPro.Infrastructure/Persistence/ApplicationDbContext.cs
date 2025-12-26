@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
+using FinanceControlPro.Domain.Entities;
 
 namespace FinanceControlPro.Infrastructure.Persistence
+
 {
     public class ApplicationDbContext : DbContext
     {
@@ -10,6 +12,15 @@ namespace FinanceControlPro.Infrastructure.Persistence
         }
 
         // Aquí irán los DbSet<> cuando se definan las entidades.
+
+          public DbSet<AuditLog> AuditLogs { get; set; }
+
+          protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
+            base.OnModelCreating(modelBuilder);
+        }
+
 
             public async Task<bool> CanConnectAsync()
         {
